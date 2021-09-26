@@ -16,42 +16,19 @@ a:link, a:visited, a:active {
     color: #141648  ;
 }
 
-/* Estilos Cabecera */
-header{
-    width: 80%;
-    height: 120px;
-    padding: 20px 0 20px 0;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-}
-
-/* Contenedor de Menú */
-nav.menu ul{
-  display: flex;
-  align-content: center;
-  align-items: center;
-}
-
-input {
-    display: none;
-}
-.fas .fa-bars {
-    display: none;
-}
-
-.fas .fa-times {
-    display: none;
+/* Estilos Cabecera */ /* Contenedor de Menú */
+.menu{
+    flex-basis: auto;
+    display: flex !important;
+    justify-content: flex-end !important;
 }
 
 /* Estilos texto menú */
-nav ul li a {
+ul li a.mouse {
     padding: 0 15px 0 15px;
 }
 
-nav ul li a:hover {
+ul li a.mouse:hover {
     color: #BC1C00;
     transition: 0.5s;
 }
@@ -98,7 +75,7 @@ h1{
     font-family: Roboto;
     font-style: normal;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 28x;
     line-height: 33px;
     letter-spacing: 0.15em;
     text-transform: uppercase;
@@ -131,7 +108,7 @@ h2.acerca{
     margin-bottom: 90px;
 }
 .saludoNos {
-    margin-bottom: 75px;
+    margin-bottom: 125px;
 }
 section div p.textUno{
     font-family: Roboto;
