@@ -1,55 +1,55 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Ecléctica Percusión</title>
-        <link rel="stylesheet" href="./CSS/style.css" type="text/css">
-        <link rel="stylesheet" href="./CSS/responsive.css" type="text/css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">l
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecléctica Percusión</title>
+    <link rel="stylesheet" href="./CSS/style.css" type="text/css">
+    <link rel="stylesheet" href="./CSS/responsive.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
 
-<body>
-
-    <!-- Cabecera -->
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
+<body id="Inicio">
+    
+    <header>  <!-- Cabecera -->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
                 <a class="navbar-brand" href="./index.html">
-                    <img src="./Images/logo-eclecticapercusion.png" alt="Ecléctica Percusión">
+                    <img src="/Images/logo-eclecticapercusion.png" alt="Ecléctica Percusión" width="126" height="56">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
-                <div class="collapse navbar-collapse menu" id="navbarNav">
+              <div class="collapse navbar-collapse menu" id="navbarNav"> <!-- Añadí clase "menu" -->
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                             <a class="nav-link active mouse" aria-current="page" href="./nosotros.html">Nosotros</a>
-                        </li>
-             
-                        <li class="nav-item">
-                            <a class="nav-link mouse" href="./productos.html">Productos</a>
-                        </li>
-                    
-                        <li class="nav-item">
-                            <a class="nav-link mouse" href="./artistas.html">Artistas</a>
+                            <a class="nav-link mouse" href="./nosotros.html">Nosotros</a>
+                            <!-- Añadí clase "activa" en lugar de "active de BS -->
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link mouse" href="./distribuidores.html">Distribuidores</a>
+                            <a class="nav-link mouse" href="./productos.html">Productos</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mouse"  href="./artistas.html">Artistas</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link mouse activa" aria-current="page" href="./distribuidores.html">Distribuidores</a>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link mouse" href="./contacto.html">Contacto</a>
-                        </li>
+                        </li>                 
                     </ul>
-                </div>
+              </div>
             </div>
         </nav>
    </header>
@@ -57,23 +57,37 @@
     <!-- Empieza el contenido -->
 
     <main>
-        <section class="nosIntro">
+        <section class="intro">
 
-            <div class="saludoNos">
-                <h1>Somos percusionistas</h1>
-                <h2>Creando instrumentos de percusión</h2>
-                <p class="textUno">Nuestra pasión por la percusión es grande y, como músicos, crear está en nuestro ADN; esa pasión la compartimos y hacemos llegar a ustedes con instrumentos de gran calidad y sonido.</p>
+            <div class="saludo">
+                <h1>Percusión Moderna</h1>
+                <h2>Para el músico <br> que experimenta</h2>
+                <p class="textUno">Creamos instrumentos partiendo del entendimiento de las necesidades del percusionista moderno, que busca sonidos únicos y que genera su propio estilo, que aprende y se alimenta de escuchar el mundo.</p>
             </div>
 
-            <div class="portadaNos">
-                <img src="./Images/nosotros-portada.png" alt="Somos Percusionistas">
+            <div class="heidi">
+                <img src="./Images/heidijubert-home.png" alt="Heidi Jubert en Ecléctica Percusión">
             </div>
                 
+            <div class="videoDemo">
+                <div>
+                    <img class="captureVideo" src="./Images/VIDEO-HOME.png" alt="Vídeo Heidi">
+                </div>
+
+                <div>
+                    <img class="playBoton" src="./Images/play-videodemo.png" alt="Play vídeo demo">
+                </div>
+
+                <div class="boxRedDemo">
+                    <p class="txtDemo">Ver vídeo demo</p>
+                </div>
+            </div>
+
         </section>
 
-        <section class="backAzulNos">
-            <div class="botoneraNos">
-                <button class="bCeleste"></a> Acerca de... </button>
+        <section class="backBotonera">
+            <div class="botoneraHome">
+                <p class="callBoton">Nuestro catálogo te sorprenderá.</p>
                 <button class="bNaranja"></a> Ver Productos </button>
             </div>
         </section>
@@ -84,40 +98,66 @@
 
 
 <!-- Productos Home -->
-        <section class="acercaSection">
+        <section class="prodSection">
             <div>
-                <h2 class="acerca">Acerca de...</h2>
+                <h2>Productos</h2>
+                <p class="textProd">Diseñamos y construimos instrumentos versátiles, de materiales de gran calidad.</p>
             </div>
         </section>
 
-        <section class="acercaDatos">
-            <div>
-                <h3 class="nos">Nuestra historia</h3>
-                <p class="textProd">Todo empezó cuando Jorge Fernández, fascinado con la versatilidad del cajón pero insatisfecho con la poca ergonomía de los cajones clásicos y el desgano de los lutieres locales por ir a la vanguardia a nivel de diseño y funcionalidad, se dio a la tarea de desarrollar un prototipo digital de un cajón con características avanzadas para el percusionista moderno y experimental.
-                La idea fue madurando, tomó forma y se convirtió en empresa finalmente, cuando de la mano e inventiva de Luiggi Mina, el proyecto dio a luz el primer prototipo de nuestro Cajón Eclecti-K. Y bueno, el resto es historia.</p>
+        <section class="listaProductos">
+            <div class="tarola">
+                <img class="iTarola" src="./Images/snare-home 1product-single-home.png" alt="Snares">
+                <h3>Snares</h3>
+                <p class="pCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, tur adipiscing elit. In place rat maun placerat.</p>
             </div>
-            <div>
-                <h3 class="nos">Propuesta de valor</h3>
-                <p class="textProd">En Perú nació el cajón peruano hace ya mucho tiempo, y este fue llevado al mundo por Paco de Lucía cuando le hizo unas modificaciones y lo introdujo al flamenco. Hasta nuestros días, en Perú el cajón se ha mantenido clásico, sin evolución a nivel diseño o funcionalidad, mientras que en el resto del mundo el cajón ha mutado y evolucionado de formas impensables.
-                Ante esta realidad, Ecléctica Percusión propone una solución de productos musicales orientados a la funcionalidad y el diseño ergonómico, con un enfoque adicional de facilidad en el transporte y economía de espacio en estudios musicales.</p>
+
+            <div class="cajones">
+                <img class="iTarola" src="./Images/Cajon-product-single-home.png" alt="Cajones">
+                <h3>Cajones</h3>
+                <p class="pCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, tur adipiscing elit. In place rat maun placerat.</p>
             </div>
-            
+
+            <div class="bongo">
+                <img class="iTarola" src="./Images/Bongo-product-single-home.png" alt="Bongó">
+                <h3>Bongós</h3>
+                <p class="pCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, tur adipiscing elit. In place rat maun placerat.</p>
+            </div>
+
+            <div class="kalimba">
+                <img class="iTarola" src="./Images/Kalimba-product-single-home.png" alt="Kalimba">
+                <h3>Kalimba</h3>
+                <p class="pCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, tur adipiscing elit. In place rat maun placerat.</p>
+            </div>
+
+            <div class="baquetas">
+                <img class="iTarola" src="./Images/Baquetas-product-single-home.png" alt="Baquetas">
+                <h3>Baquetas</h3>
+                <p class="pCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit, tur adipiscing elit. In place rat maun placerat.</p>
+            </div>
 
         </section>
 
 <!-- Sección Artistas Home -->
-        <section class="sectVm">
-            <div class="gridVm">
-                <div class="txtVm">
-                    <h3>Visión y Misión</h3>
-                    <p class="textVm">Nuestro mayor deseo es lograr establecer un nuevo estándar en la construcción de instrumentos percutivos, donde la experiencia de usuario, la ergonomìa y la versatilidad del instrumento son parte de nuestra filosofía de trabajo diario.
-                    Como músicos, entendemos las necesidades de nuestros colegas y, como percusionistas, sabemos que los detalles en el acabado y diseño son más que importantes, por eso somos cuidadosos en el uso de materiales, los cuales son de primera calidad para brindar al músico exigente un sonido equilibrado, y para el músico experimental, construimos a pedido según requerimiento.</p>
+        <section class="artistasHome">
+            <div class="gridArtistas">
+                <div class="txtArtistas">
+                    <h3 class="white">Artistas</h3>
+                    <p class="pWhite">Grandes músicos y percusionistas de talla mundial crean con nuestros instrumentos.</p>
+                    <button class="bBlanco"> Conocer Artistas</button>
                 </div>
 
-                <div class="imgVM">
-                    <img src="./Images/imgVM.png" alt="Visión y Misión">
+                <div class="anika">
+                    <img src="./Images/ANIKA-NILES 1.png" alt="Anika">
                 </div>
 
+                <div class="benny">
+                    <img src="./Images/benny-greb 1.png" alt="Benny">
+                </div>
+
+                <div class="jojo">
+                    <img src="./Images/jojo-mayer 1.png" alt="jojo">
+                </div>
             </div>
             
         </section>
@@ -159,13 +199,18 @@
 
     <!-- Acá empieza el pie de página -->
     <footer>
+        <section class="suscripcion">
+            <div>
+                <p>Formulario de suscripción</p>
+            </div>
+        </section>
         <div class="sectUp">
             <div class="arriba">
                 <a href="#inicio"><img src="./Images/up.png" alt="Ir arriba"></a>
             </div>
         </div>
 
-       <section class="footAbajo">
+        <section class="footAbajo">
             <div> 
                 <img class="logoFoot" src="./Images/logowhite.png" alt="">
                 <p class="pWhiteFoot">Todos los derechos reservados, 2021.</p>
