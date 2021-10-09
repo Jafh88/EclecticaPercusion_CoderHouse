@@ -1,0 +1,113 @@
+//Importando variables creadas
+@import "variables"
+
+* 
+    box-sizing: border-box
+    list-style: none
+    margin: 0
+    padding: 0
+
+html 
+    font-size: 1rem
+    font-family: Lato, Roboto
+
+/** Editando estilos de links **/    
+a a:link a:visited a:active
+    text-decoration: none
+
+
+/** Anidando Textos Sección Principal Global**/
+#Principal
+    width: $casi-full
+    background-color: $blanco
+    margin: auto
+    margin-top: 50px
+
+    & div.Contenido
+        
+        & .Principal__h1--Uppercase
+            font-family: Roboto
+            font-style: normal
+            font-weight: 300
+            font-size: $medida*1.5
+            letter-spacing: 0.05em
+            text-transform: uppercase
+            color: $azul
+        
+        & .Principal__h2
+            font-family: Roboto
+            font-weight: bold
+            font-size: $medida*2.5
+            color: $ocre
+            padding: 30px 0 30px 0
+
+        & .Principal__Parrafo
+            font-family: Roboto
+            font-style: normal
+            font-weight: normal
+            font-size: $medida
+            color: $gris
+            margin-top: 20px
+
+    & .Principal__Video
+        & .Heidi__Youtube
+            width: $full
+            height: auto  
+
+#Principal__Botonera
+    width: $full
+    height: 140px
+    background-color: $azul
+    margin: auto
+    padding: 40px 0
+    margin-top: -180px
+    & .Botonera__Principal
+        width: $casi-full
+        margin: auto
+        padding: 35 0 35 0
+        .Principal__Botonera--h4
+            font-family: Roboto
+            font-style: normal
+            font-size: $medida
+            text-transform: uppercase
+            width: 260px
+            color: $blanco
+            
+/** Botones **/
+%Boton__Base
+    width: auto
+    height: 48px
+    margin: 30px
+    z-index: 15
+    padding: 10px 20px
+    text-decoration:none
+    color: $blanco
+
+    font-family: Roboto
+    font-style: normal
+    font-weight: bold
+    font-size: $medida
+
+.Btn__Ocre
+    @extend %Boton__Base
+    border: 4px solid $ocre
+    box-sizing: border-box
+    border-radius: 20px
+    background-color: $ocre
+
+.Btn__Azul
+    @extend %Boton__Base
+    border: 4px solid $azul
+    box-sizing: border-box
+    border-radius: 20px
+    background-color: $azul
+    
+.Btn__Celeste
+    @extend %Boton__Base
+    border: 4px solid $celeste
+    box-sizing: border-box
+    border-radius: 20px
+    background-color: $celeste
+
+
+    
